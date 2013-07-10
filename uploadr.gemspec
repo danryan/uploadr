@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.files         = %w[ LICENSE.txt CONTRIBUTING.md CHANGELOG.md README.md Rakefile reveille.gemspec ]
+  spec.files         = %w[ LICENSE.txt CONTRIBUTING.md CHANGELOG.md README.md Rakefile uploadr.gemspec ]
   %w[ lib bin spec ].each do |dir|
     spec.files += Dir["#{dir}/**/*"]
   end
