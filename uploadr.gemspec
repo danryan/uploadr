@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "uploadr"
   spec.version       = Uploadr::VERSION
   spec.authors       = ["Dan Ryan"]
-  spec.email         = ["scriptfu@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["dan@appliedawesome.com"]
+  spec.description   = %q{A fast Flickr bulk upload utility}
+  spec.summary       = %q{A fast Flickr bulk upload utility}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'celluloid'
   spec.add_dependency 'parseconfig'
   spec.add_dependency 'progress_bar'
-  
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency 'guard-rspec', '>= 3.0.2'
   spec.add_development_dependency 'pry'
